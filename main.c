@@ -32,102 +32,103 @@ int main (void)
 
 		while(LICHT_STOPP)// während des drücken des Tasters
 		{
-			PORTD = 129;
+			PORTD = 1;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-				PORTD = 129;
+				PORTD = 1;
 				}
 			}	
-		for(i=0; i<20000; i++)//Die Zeit ist doppelt so lang um eine optische Täuschung hervor zu rufen
+		for(i=0; i<27; i++)//Die Zeit ist doppelt so lang um eine optische Täuschung hervor zu rufen
 		{
-			PORTD = 129;
+			PORTD = 1;
 		}
 
 		
 		while(LICHT_STOPP)
 		{
-			PORTD = 66;
+			PORTD = 2;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-				PORTD = 66;
+				PORTD = 2;
 				}
 			}	
-		for(i=0; i<10000; i++) //Pause für s leuchten
+		for(i=0; i<27; i++) //Pause für s leuchten
 		{
-			PORTD = 66;
+			PORTD = 2;
 		}
+
 
 		while(LICHT_STOPP)
 		{
-			PORTD = 36;
+			PORTD = 4;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-				PORTD = 36;
+				PORTD = 4;
 				}
 			}	
-		for(i=0; i<10000; i++) 
+		for(i=0; i<27; i++) 
 		{
-			PORTD = 36;
+			PORTD = 4;
 		}
 		
 
 		while(LICHT_STOPP)
 		{
-			PORTD = 24;
+			PORTD = 8;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-				PORTD = 24;
+				PORTD = 8;
 				}
 			}
-		for(i=0; i<20000; i++) //Die Zeit ist doppelt so lang um eine optische Täuschung hervor zu rufen
+		for(i=0; i<27; i++) //Die Zeit ist doppelt so lang um eine optische Täuschung hervor zu rufen
 		{
-			PORTD = 24;
+			PORTD = 8;
 		}
 
 
 		while(LICHT_STOPP)
 		{
-			PORTD = 36;
+			PORTD = 16;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-					PORTD = 36;
+					PORTD = 16;
 				}
 			}
-		for(i=0; i<10000; i++) 
+		for(i=0; i<27; i++) 
 		{
-			PORTD = 36;
+			PORTD = 16;
 		}
 
 
 		while(LICHT_STOPP)
 		{
-			PORTD = 66;
+			PORTD = 32;
 		}
 			while(LANGSAM)
 			{
-				for(o=0; o<400000; o++)
+				for(o=0; o<1600000; o++)
 				{
-					PORTD = 66;
+					PORTD = 32;
 				}
 			}
-		for(i=0; i<10000; i++) 
+		for(i=0; i<27; i++) 
 		{
-			PORTD = 66;
+			PORTD = 32;
 		}
 
 		PORTD = 0;
